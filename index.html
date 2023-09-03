@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: #CEDEBD;
+        }
+
+        #panel {
+            overflow: hidden;
+            width: 73%;
+            height: 80%;
+            border-radius: 15px;
+            background-color: #fff;
+        }
+
+        #ptop {
+            font-size: 25px;
+            padding: 0px 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            height: 100px;
+            width: 100%;
+            background-color: #6f8555;
+        }
+
+        #pmid {
+            padding-left: 30px;
+            width: 100%;
+            height: 50%;
+            color: #435334;
+            font-size: 20px;
+        }
+
+        #pmid, h3{
+            margin-top: 10px;
+        }
+
+        #pmid, ol,li{
+            margin-top: 15px;
+        }
+
+        #pbottom{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+        }
+        
+        .btn{
+            padding: 8px 20px;
+            border-radius: 10px;
+            border: 1px solid;
+            color: #435334;
+            font-size: 17px;
+        }
+        .btn:hover{
+            background-color: #CEDEBD;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <h1>Bubble Game</h1>
+            </div>
+            <div id="pmid">
+                <h1>Instructions</h1>
+                <h3>How to play</h3>
+                <ol>
+                    <li>You have to click the bubble containing number as shown in the "Hit" box.</li>
+                    <li>If you hit the correct bubble your score will increase by 10 points.</li>
+                    <li>You have to hit the correct bubble as much as possible within 60 Seconds.</li>
+                </ol>
+            </div>
+            <div id="pbottom">
+                <a href="gamePage.html"><button class="btn">START</button></a>
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
